@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
 	return (
-		<section className="h-screen pt-14 gap-5 w-full flex flex-col items-center px-4 md:gap-16 lg:flex-row-reverse lg:pl-10">
+		<section className="h-screen pt-14 gap-5 w-full flex flex-col items-center px-4 overflow-x-hidden md:gap-16 lg:flex-row-reverse lg:pl-10">
 			<Reveal className="relative w-full py-12 md:h-1/2 md:basis-1/2">
 				<div className="bg-reggreen absolute -inset-x-14 -top-1 bottom-20 -skew-12 -z-10 lg:-left-0 lg:-skew-y-0"></div>
 

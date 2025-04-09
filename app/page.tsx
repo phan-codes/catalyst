@@ -7,13 +7,13 @@ import Why from "@/components/Why";
 
 export default function Home() {
 	return (
-		<>
+		<div className="overflow-x-hidden">
 			<Hero />
 			<WhatWeManage />
 			<HowItWorks />
 			<Services />
 			<Why />
 			<CTA />
-		</>
+		</div>
 	);
 }

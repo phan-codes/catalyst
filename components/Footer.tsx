@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 
 const Footer = () => {
 	return (
-		<footer className="bg-reggreen px-4 py-14 gap-16 text-offwhite flex flex-col">
+		<footer className="bg-reggreen px-4 py-14 gap-16 text-offwhite flex flex-col overflow-x-hidden">
 			<div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
 				<Reveal className="flex flex-col items-center text-center px-10 md:px-0">
 					<div className="relative w-20 h-20">
